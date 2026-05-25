@@ -1,21 +1,21 @@
 <template>
-    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-        :class="scrolled ? 'bg-plum/95 backdrop-blur-md border-b border-plum-light/30 py-3' : 'bg-transparent py-6'">
+    <header class="fixed top-0 left-0 right-0 z-40 transition-all duration-500"
+        :class="scrolled ? 'bg-plum/95 backdrop-blur-md border-b border-cream/80 py-3' : 'bg-transparent py-6'">
         <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
             <!-- Logo -->
             <router-link :to="{ name: 'home' }"
-                class=" text-cream/80  text-2xl font-semibold  tracking-widest uppercase hover:text-cream">Logo</router-link>
+                class="   text-2xl font-semibold  tracking-widest uppercase text-white">Logo</router-link>
             <!-- Desktop Nav -->
-            <nav class="hidden md:flex items-center gap-8 text-cream/80">
+            <nav class="hidden md:flex items-center gap-8 z-50 text-white">
                 <router-link :to="{ name: 'home' }"
-                    class="nav-link text-xl font-semibold  tracking-widest uppercase hover:text-cream">Home</router-link>
+                    class="nav-link text-xl font-semibold  tracking-widest uppercase text-white">Home</router-link>
                 <router-link :to="{ name: 'home' }"
-                    class="nav-link text-xl font-semibold  tracking-widest uppercase hover:text-cream">Our
+                    class="nav-link text-xl font-semibold  tracking-widest uppercase text-white">Our
                     Story</router-link>
                 <router-link :to="{ name: 'home' }"
-                    class="nav-link text-xl font-semibold  tracking-widest uppercase hover:text-cream">Menu</router-link>
+                    class="nav-link text-xl font-semibold  tracking-widest uppercase text-white">Menu</router-link>
                 <router-link :to="{ name: 'home' }"
-                    class="nav-link text-xl font-semibold  tracking-widest uppercase hover:text-cream">Home</router-link>
+                    class="nav-link text-xl font-semibold  tracking-widest uppercase text-white">Home</router-link>
 
             </nav>
 
