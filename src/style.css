@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@theme {
+    /* 👇 Define your primary & theme colors here */
+    --color-primary: #432818;
+    --color-primary-light: #432818;
+    --color-cream: #FFF8F0;
+    --color-clay: #C4856A;
+    --color-timber: #1A1512;
+    --color-gold: #D4AF37;
+    --color-berry: #8B2252;
+    --color-apricot: #E8734A;
+    --color-mid: #6B3A1F;
+    --font-serif: Georgia, serif;
+    --font-body: Inter, system-ui, sans-serif;
+}
+
+/* src/assets/main.css - GLOBAL, not scoped */
+
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-amber-50);
+    /* timber */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-amber-600);
+    border-radius: 4px;
+}
